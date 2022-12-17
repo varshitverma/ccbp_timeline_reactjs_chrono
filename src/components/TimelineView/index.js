@@ -17,7 +17,7 @@ const TimelineView = props => {
         </h1>
         <Chrono
           items={timelineItemsList}
-          theme={{titleColor: '#0967d2'}}
+          theme={{titleColor: '#0967d2', secondary: 'white'}}
           mode="VERTICAL_ALTERNATING"
         >
           {timelineItemsList.map(eachItem => {
